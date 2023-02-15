@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Today</title>
+    <style>
+        
+body{
+    text-align: center;
+    padding-top: 20px; 
+    background-color: whitesmoke;
+    }
+
+.tone{
+    width: 500px;
+    height: 30px;
+    border: 2px solid; 
+    color: green;
+    text-align: center;
+    }
+
+form{
+    border: 1px solid rgb(163, 112, 112);
+    width: 600px;
+    margin-left: 400px;
+
+    }
+.submit{
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    border: 2px solid;
+    font: bold 16px;
+    cursor: pointer;
+    }
+
+h4{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    }
+
+i{
+    color: red;
+    }
+
+.Page{ 
+    display: inline-block; 
+    color:rgb(37, 7, 119);
+    float: right;
+    font-weight: bold;
+    position: fixed;
+    }
+
+.gendiv{
+    margin-bottom: 70px;
+    }
+
+a{
+    font-size: 20px;
+    margin: 10px;
+    padding-right: 10px;
+    text-decoration-line: none;
+    }
+
+a:hover{
+    color: white;
+    cursor: pointer;
+    }
+
+a:visited{
+    text-decoration: rgb(206, 163, 163);
+    }
+    </style>
+</head>
+<body>
+    <marquee direction="left"><h2>WE INSTALL<i>CCTV CAMERAS / ELECTRIC FENCES</i> FOR YOUR SECURITY!!!</h2></marquee>
+    <div class="gendiv">
+        <div class="Page">
+            <a href="index.html">Home</a>
+            <a href="ourservice.html">Our Services</a>
+            <a href="AboutUs.html">About Us</a>
+            <a href="contactus.html">Contact Us</a>
+        </div>
+    </div>
+    <form>
+        <h2>REGISTRATION FORM</h2>
+    <h1>
+        <input type="text" placeholder="Surname / First Name" class="tone"><br><br>
+        <input type="text" placeholder="Last Name" class="tone"><br><br>
+        <input type="text" placeholder="Personal Email"class="tone"><br><br>
+        <input type="text" placeholder="Phone Number" class="tone"><br><br>
+        <input type="text" placeholder="Address" class="tone"><br><br>
+        <input type="text" placeholder="Comments" class="tone"><br><br>
+    </h1>
+        <label for ="name"> User Name</label><br>
+        <input type="text"><br><br>
+        <label for ="name">User Email</label><br>
+        <input type="email"><br><br>
+        <label for="name">Password</label><br>
+        <input type="password"><br><br>
+        <label for="name">Confirm Password</label><br>
+        <input type="password"><br><br>
+            <label for="dob" class="tone">Date of Birth</label>
+            <input type="date"><br><br>
+            <label for="gender">Male</label>
+            <input type="radio" name="gender">
+            <label for="gender">Female</label>
+            <input type="radio" name="gender"><br><br>
+            <label for="myfile">Select Passport:</label>
+            <input type="file" id="myfile" name="myfile"> <br><br>
+
+        <input type="submit" class="submit">
+    </form>
+</body>
+</html>
